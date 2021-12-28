@@ -1,6 +1,7 @@
 import ChartBar from "./ChartBar";
 import "./Chart.css";
 
+//Chart
 const Chart = (props) => {
   const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
   const maxHeight = Math.max(...dataPointValues);
